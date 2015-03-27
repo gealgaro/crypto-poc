@@ -78,8 +78,8 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-production:
-  <<: *default
-  database: crypto-poc_production
-  username: crypto-poc
-  password: <%= ENV['CRYPTO-POC_DATABASE_PASSWORD'] %>
+# production:
+#   <<: *default
+#   database: crypto-poc_production
+#   username: crypto-poc
+#   password: <%= ENV['CRYPTO-POC_DATABASE_PASSWORD'] %>
