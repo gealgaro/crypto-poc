@@ -1,0 +1,8 @@
+#
+# Encryption settings
+#
+development:   &defaults
+  key:         b326f49895f5d3e3050df0120f4395782eba7750b0dd8a6d65cf26f07b82b37761280dcc281ee8fd9814e3c5f155c221b4540f6d48f5c7b1a899c4a98bde1a66
+
+test:
+  <<: *defaults
